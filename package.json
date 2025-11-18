@@ -1,0 +1,51 @@
+{
+  "name": "email-temp-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.2.2",
+    "@upstash/ratelimit": "^2.0.7",
+    "@upstash/redis": "^1.35.6",
+    "bullmq": "^5.63.2",
+    "date-fns": "^4.1.0",
+    "dompurify": "^3.3.0",
+    "dotenv": "^17.2.3",
+    "framer-motion": "^12.23.24",
+    "ioredis": "^5.8.2",
+    "isomorphic-dompurify": "^2.32.0",
+    "lucide-react": "^0.554.0",
+    "mailparser": "^3.9.0",
+    "nanoid": "^5.1.6",
+    "next": "16.0.3",
+    "pg": "^8.16.3",
+    "pg-hstore": "^2.3.4",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-hook-form": "^7.66.1",
+    "sequelize": "^6.37.7",
+    "smtp-server": "^3.16.1",
+    "uuid": "^13.0.0",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/dompurify": "^3.0.5",
+    "@types/mailparser": "^3.4.6",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/smtp-server": "^3.5.12",
+    "@types/uuid": "^10.0.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.3",
+    "sequelize-cli": "^6.6.3",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
